@@ -1,0 +1,39 @@
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  width: 140px;
+  border-radius: 10px;
+  background-color: #D9D9D9;
+}
+
+
+.title-container {
+  margin-top: 15px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.title-container>h3 {
+  font-weight: 800;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.title-container>p {
+  font-weight: light;
+  font-size: 10px;
+}
+
+
+.sub-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px 15px auto;
+  height: 80px;
+  width: 65px;
+  border-radius: 5px;
+  border: 1px solid black
+}
