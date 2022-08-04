@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+@charset "utf-8";
+
+html,
+body {
+  width: 100%;
+  min-width: 300px;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+dd,
+p,
+fieldset,
+legend,
+input,
+select figure {
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body,
+input,
+textarea,
+select,
+button {
+  font-size: 14px;
+  font-family: 'Noto Sans CJK KR', '나눔 고딕', NanumGothic, '돋움', Dotum,
+    sans-serif;
+  color: #333;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul,
+ol {
+  list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+table {
+  border-collapse: collapse;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+em {
+  font-style: normal;
+}
+
+address {
+  font-style: normal;
+  word-break: keep-all;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+fieldset {
+  border: 0;
+}
+
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  /* border: 1px solid #ccc; */
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 30px;
   }
 }
